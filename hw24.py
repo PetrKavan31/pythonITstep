@@ -7,3 +7,6 @@ with open('newTest.txt') as fr:
     for words in lines:
         if not words.isnumeric():
             nWords += 1
+    print()
+    print(f'Text contains {nWords} words')
+
